@@ -1,0 +1,34 @@
+# =============================
+# DataSet Definitions Section
+# =============================
+
+A 3
+10 20 30
+
+B 3
+30 20 10
+
+C 1
+15
+
+# =============================
+# Query Section: Set Operations
+# =============================
+
+Q
+
+print A
+print B
+print C
+
+isequal A B
+issubset A B
+issubset C A
+
+difference A C
+union A C
+intersection A C
+symmetric_difference A C
+
+powerset C
+cartesian A B

@@ -1,0 +1,33 @@
+# =============================
+# DataSet Definitions Section
+# =============================
+
+X 0
+
+Y 1
+99
+
+Z 6
+-3 -2 -1 0 1 2
+
+# =============================
+# Query Section: Set Operations
+# =============================
+
+Q
+
+print X
+print Y
+print Z
+
+union X Y
+union Y Z
+intersection X Z
+difference Z Y
+symmetric_difference X Z
+
+powerset X
+powerset Y
+powerset Z
+
+cartesian Y Z

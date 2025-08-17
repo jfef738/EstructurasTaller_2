@@ -1,0 +1,51 @@
+# =============================
+# DataSet Definitions Section
+# =============================
+
+A 5
+1 2 3 4 5
+
+B 4
+4 5 6 7
+
+C 3
+10 11 12
+
+D 2
+1 4
+
+# =============================
+# Query Section: Set Operations
+# =============================
+
+Q
+
+# Print each individual set
+print A
+print B
+print C
+
+# Set operations
+union A B
+intersection A B
+difference A B
+difference B A
+symmetric_difference A B
+
+# Operations with disjoint set
+intersection A C
+union B C
+symmetric_difference B C
+
+print A
+print D
+issubset A D
+issubset D A
+isequal A D
+size A
+size D
+
+powerset A
+cartesian A B
+
+
