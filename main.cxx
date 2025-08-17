@@ -24,6 +24,7 @@
 //              difference A B
 //              symmetric_difference A B
 // ===================================================================================
+// Group 4 | Joel Felipe Martinez | Xamuel Perez | Rafael Held
 
 #include <iostream>
 #include <fstream>
